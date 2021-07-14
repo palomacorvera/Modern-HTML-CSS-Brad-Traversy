@@ -1,0 +1,271 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main */
+
+html,body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Contenedor */
+
+.contenedor {
+    margin: auto;
+    max-width: 1100px; 
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.texto-primario {
+    color: #f7c08a;
+}
+
+.parrafo-principal {
+   font-size: 20px;
+   color: white;
+}
+
+.boton {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.boton:hover {
+    color: #333;
+    background-color: #f7c08a;
+}
+
+.boton-claro {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.fondo-oscuro {
+    background-color:rgb(41, 40, 40);
+    color: white;
+}
+
+.fondo-claro {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.fondo-primario {
+    color:rgb(41, 40, 40);
+    background-color: #f7c08a;
+}
+
+.clr {
+    clear: both;
+}
+
+.titulo-grande {
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.padding30 {
+    padding: 30px;
+}
+
+/* Navegador */
+
+#navegador { 
+    overflow: auto; 
+}
+
+#navegador h1 {
+    float: left; 
+    padding-top: 20px;
+}
+
+#navegador a {
+    color: white;
+}
+
+#navegador ul{ 
+    list-style: none; 
+    float: right; 
+}
+
+#navegador ul li {
+    float: left; 
+}
+
+#navegador ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navegador ul li a:hover, #navegador ul li a.activo { 
+    background-color: rgb(73, 73, 73);
+    color: #f7c08a;
+}
+
+/* Escaparate */
+
+#escaparate {
+    background: url('./img/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+
+#escaparate .contenido-escaparate {
+    text-align: center;
+    padding-top: 170px;
+}
+
+#escaparate .contenido-escaparate h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#escaparate .contenido-escaparate p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+/* Sección home-info */
+
+#home-info {
+    height: 450px;
+}
+
+#home-info .info-imagen {
+    float: left;
+    width: 50%;
+    background: url('./img/photo-1.jpg') no-repeat;
+    min-height: 100%;
+}
+
+#home-info .info-contenido {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-contenido p {
+    padding-bottom: 30px;
+}
+
+/* Caracteristicas */
+
+.caja {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.caja i {
+    margin-bottom: 10px;
+}
+
+/* About info */
+#about-info .info-derecha {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-derecha img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+
+#about-info .info-izquierda {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+/* Testimonio */
+
+#testimonios {
+    height: 100%;
+    background: url(./img/test-bg.jpg) no-repeat center center/cover;
+    padding-top: 100px;
+}
+
+#testimonios .testimonio {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+#testimonios .testimonio img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+#testimonios h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+/* Form */
+
+#contacto .form-group {
+    margin-bottom: 20px;
+}
+
+#contacto label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contacto input, #contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#contacto textarea {
+    height: 200px;
+}
+
+#contacto input:focus, #contacto textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+
+/* Footer */
+
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: white;
+    padding: 20px;
+}

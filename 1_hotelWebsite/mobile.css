@@ -1,0 +1,53 @@
+#navegador h1 {
+    float: none;
+    text-align: center;
+}
+
+#navegador ul, #navegador ul li {
+    float: none;
+}
+
+#navegador ul li a{
+    padding: 5px;
+    border-bottom: #444 dotted 1px;
+}
+
+#escaparate {
+    height: 100%;
+}
+
+#escaparate .contenido-escaparate {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+#home-info .info-imagen {
+    display: none;
+}
+
+#home-info .info-contenido {
+    float: none;
+    width: 100%;
+}
+
+.caja {
+    float: none;
+    width: 100%;
+}
+
+#about-info .info-derecha, #about-info .info-izquierda {
+    float: none;
+    width: 100%;
+}
+
+#about-info .info-derecha {
+    margin-top: 30px;
+}
+
+.titulo-grande {
+    text-align: center;
+}
+
+#info-contacto .caja {
+    border-bottom: #444 dotted 1px;
+}
