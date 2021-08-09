@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+:root {
+    --color-1: steelblue;
+    --color-2: tan;
+    --color-3: teal;
+    --color-4: slateblue;
+    --animate-speed: 1.5s;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow: hidden;
+}
+
+#primera {background-color: var(--color-1);}
+
+#segunda {background-color: var(--color-2);}
+
+#tercera {background-color: var(--color-3);}
+
+#cuarta {background-color: var(--color-4);}
+
+.pagina {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 4rem;
+}
+
+.pagina h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin: 1rem;
+}
+
+.pagina p {
+    font-size: 1.2rem;
+}
+
+.boton {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: white;
+    color: #333;
+    text-decoration: none;
+    border: none;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    transition: all 0.3s ease-in;
+}
+
+.boton:hover {
+    background: #333;
+    color: white;
+}
+
+.oscuro {
+    background: #333;
+    color: white;
+}
+
+.oscuro:hover {
+    background: white;
+    color: #333;
+}
+
+#primera h1 {
+    transform: translateY(-1200px);
+    animation: heading var(--animate-speed) forwards ease-in;
+}
+
+@keyframes heading {
+    to {
+        transform: translateY(0);
+    }
+}
+
+#primera p {
+    transform: translateX(-1800px);
+    animation: parrafo var(--animate-speed) forwards ease-in 1s;
+}
+
+@keyframes parrafo {
+    to {
+        transform: translateX(0);
+    }
+}
