@@ -1,1 +1,1 @@
-Estos son los proyectos que he ido creando durante el curso "Modern HTML&CSS" de Udemy
+Estos son los proyectos que he ido creando durante el curso "Modern HTML&CSS" de Brad Traversy
